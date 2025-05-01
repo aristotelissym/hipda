@@ -15,6 +15,9 @@ export class Members {
     @Column()
     expertise: string;
 
+    // @Column()
+    // role: string;
+
     @Column()
     sector: string;
 
