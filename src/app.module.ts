@@ -10,10 +10,10 @@ import { Members } from './members/entities/members.entity';
     MembersModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'hipda-msql',
       port: 3306,
-      username: 'root',
-      password: 'r00t1234!',
+      username: 'hipda-user',
+      password: 'hipda@1234!',
       database: 'hipda',
       entities: [Members],
       synchronize: true,
