@@ -15,8 +15,8 @@ export class Members {
     @Column()
     expertise: string;
 
-    // @Column()
-    // role: string;
+    @Column()
+    role: string;
 
     @Column()
     sector: string;
@@ -33,7 +33,7 @@ export class Members {
     @Column({ unique: true })
     email: string;
 
-    @Column()
+    @Column({ unique: false })
     phone: string;
 
     @Column()
